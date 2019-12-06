@@ -39,10 +39,10 @@ public class EtudiantDao implements IMetier<Etudiant> {
 			pstm.execute();
 			
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "duplication des informations", "Dialog", JOptionPane.ERROR_MESSAGE);
 			System.out.println("message: "+e.getMessage());
 			pstm=null;
 			a=null;
+			throw new RuntimeException(e.getMessage());
 		}
 		return a;
 	}
@@ -75,9 +75,9 @@ public class EtudiantDao implements IMetier<Etudiant> {
 			
 
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "Erreur de connection", "Dialog", JOptionPane.ERROR_MESSAGE);
 			System.out.println(e.getMessage());
 			pstm=null;
+			throw new RuntimeException(e.getMessage());
 		}
 		return etus;
 	}
@@ -103,10 +103,10 @@ public class EtudiantDao implements IMetier<Etudiant> {
             pstm.execute();
 			
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "Erreur de connection", "Dialog", JOptionPane.ERROR_MESSAGE);
 			System.out.println(e.getMessage());
 			pstm=null;
 			a=null;
+			throw new RuntimeException(e.getMessage());
 		}
 		return a;
 	}
@@ -114,14 +114,12 @@ public class EtudiantDao implements IMetier<Etudiant> {
 	@Override
 	public void delete(Integer id) {
 		PreparedStatement pstm=null;
-
-        try {
+		try {
 			pstm=con.prepareStatement("delete from etudiant where id= '"+id+"'  ");
 			pstm.execute();
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "Erreur de suppression", "Dialog", JOptionPane.ERROR_MESSAGE);
-			System.out.println(e.getMessage());
 			pstm=null;
+			throw new RuntimeException(e.getMessage());
 		}
 	}
 

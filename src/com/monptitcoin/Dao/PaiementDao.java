@@ -35,10 +35,10 @@ public class PaiementDao implements IMetier<Paiement>{
 			pstm.execute();
 			
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "duplication des informations", "Dialog", JOptionPane.ERROR_MESSAGE);
 			System.out.println("message: "+e.getMessage());
 			pstm=null;
 			a=null;
+			throw new RuntimeException(e.getMessage());
 		}
 		return a;
 	}
@@ -67,9 +67,9 @@ public class PaiementDao implements IMetier<Paiement>{
 			
 
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "Erreur de connection", "Dialog", JOptionPane.ERROR_MESSAGE);
 			System.out.println(e.getMessage());
 			pstm=null;
+			throw new RuntimeException(e.getMessage());
 		}
 		return pms;
 	}
@@ -89,10 +89,10 @@ public class PaiementDao implements IMetier<Paiement>{
 			pstm.execute();
 			System.out.println("shit");
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "Erreur de connection", "Dialog", JOptionPane.ERROR_MESSAGE);
 			System.out.println(e.getMessage());
 			pstm=null;
 			a=null;
+			throw new RuntimeException(e.getMessage());
 		}
 		return a;
 	}
@@ -105,9 +105,9 @@ public class PaiementDao implements IMetier<Paiement>{
 			pstm=con.prepareStatement("delete from paiement where id= '"+id+"'  ");
 			pstm.execute();
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "Erreur de suppression", "Dialog", JOptionPane.ERROR_MESSAGE);
 			System.out.println(e.getMessage());
 			pstm=null;
+			throw new RuntimeException(e.getMessage());
 		}
 		
 	}
@@ -158,9 +158,9 @@ public class PaiementDao implements IMetier<Paiement>{
 			
 
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "Erreur de connection", "Dialog", JOptionPane.ERROR_MESSAGE);
 			System.out.println(e.getMessage());
 			pstm=null;
+			throw new RuntimeException(e.getMessage());
 		}
 		return etu;
 	}
@@ -180,9 +180,9 @@ public class PaiementDao implements IMetier<Paiement>{
 			
 
 		} catch (Exception e) {
-			javax.swing.JOptionPane.showMessageDialog(null, "Erreur de telechargment de l'image", "Dialog", JOptionPane.ERROR_MESSAGE);
 			System.out.println(e.getMessage());
 			pstm=null;
+			 throw new RuntimeException(e.getMessage());
 		}
 		
 		return imgByte;

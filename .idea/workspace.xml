@@ -5,53 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/Dao/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/Dao/DatabaseConnection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/Dao/EtudiantDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/Dao/EtudiantDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/Dao/IMetier.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/Dao/IMetier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/Dao/PaiementDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/Dao/PaiementDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/controller/EtudiantControlleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/controller/EtudiantControlleur.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/controller/PaiementControlleur.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/controller/PaiementControlleur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/modele/Etudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/modele/Etudiant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/modele/Paiement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/modele/Paiement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/EtudiantTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementTableModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/PaiementTableModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/monptitcoin/vue/VuePrincipale.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/monptitcoin/Dao/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monptitcoin/Dao/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/monptitcoin/vue/VuePrincipale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monptitcoin/vue/VuePrincipale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/monptitcoin/Dao/EtudiantDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monptitcoin/Dao/EtudiantDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/monptitcoin/Dao/PaiementDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monptitcoin/Dao/PaiementDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/monptitcoin/controller/EtudiantControlleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monptitcoin/controller/EtudiantControlleur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/monptitcoin/controller/PaiementControlleur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monptitcoin/controller/PaiementControlleur.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/monptitcoin/vue/images/tmp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/monptitcoin/vue/images/tmp.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575645916829</updated>
-      <workItem from="1575645922418" duration="5255000" />
+      <workItem from="1575645922418" duration="6738000" />
     </task>
     <servers />
   </component>

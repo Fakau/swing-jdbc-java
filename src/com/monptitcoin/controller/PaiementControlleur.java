@@ -22,31 +22,43 @@ public class PaiementControlleur {
 	
 	public Paiement save(Paiement pm, int id){
 		Etudiant e=new Etudiant();
-		e=etDao.getById(id);
-		if(pm.getDescription().trim().equals("") || pm.getNumeroRecu().trim().equals("") || pm.getMontant() <= 0 ){
-			javax.swing.JOptionPane.showMessageDialog(null, "Champs invalide", "Erreur remplissage", JOptionPane.ERROR_MESSAGE);
-		}else{
-			pm.setEtudiant(e);
-		    dao.save(pm);
-			javax.swing.JOptionPane.showMessageDialog(null, "Success");
+		try {
+			e = etDao.getById(id);
+			if (pm.getDescription().trim().equals("") || pm.getNumeroRecu().trim().equals("") || pm.getMontant() <= 0) {
+				javax.swing.JOptionPane.showMessageDialog(null, "Champs invalide", "Erreur remplissage", JOptionPane.ERROR_MESSAGE);
+			} else {
+				pm.setEtudiant(e);
+				dao.save(pm);
+				javax.swing.JOptionPane.showMessageDialog(null, "Success");
 
+			}
+		}catch (Exception ex){
+			javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage(), "Erreur", JOptionPane.ERROR_MESSAGE);
 		}
 		
 		return pm;
 	}
 	public void delete(int id){
-		dao.delete(id);
-		javax.swing.JOptionPane.showMessageDialog(null, "Success");
+		try {
+			dao.delete(id);
+			javax.swing.JOptionPane.showMessageDialog(null, "Success");
+		}catch (Exception ex){
+			javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage(), "Erreur", JOptionPane.ERROR_MESSAGE);
+		}
 
 	}
 	
 	public void update(Paiement pm){
-		if(pm.getDescription().trim().equals("") || pm.getNumeroRecu().trim().equals("") || pm.getMontant() <= 0  ){
-			javax.swing.JOptionPane.showMessageDialog(null, "Champs invalide", "Erreur remplissage", JOptionPane.ERROR_MESSAGE);
-		}else{
-			dao.update(pm);
-			javax.swing.JOptionPane.showMessageDialog(null, "Success");
+		try {
+			if (pm.getDescription().trim().equals("") || pm.getNumeroRecu().trim().equals("") || pm.getMontant() <= 0) {
+				javax.swing.JOptionPane.showMessageDialog(null, "Champs invalide", "Erreur remplissage", JOptionPane.ERROR_MESSAGE);
+			} else {
+				dao.update(pm);
+				javax.swing.JOptionPane.showMessageDialog(null, "Success");
 
+			}
+		}catch (Exception ex){
+			javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage(), "Erreur", JOptionPane.ERROR_MESSAGE);
 		}
 	}
 

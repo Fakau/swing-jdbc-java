@@ -17,7 +17,7 @@ public class DatabaseConnection {
     		connexion= DriverManager.getConnection("jdbc:mysql://localhost:3306/inu_app","root","");
     	    System.out.println("connection succeess");
     	}catch(Exception ex){
-    		javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage(),"Dialog",JOptionPane.ERROR_MESSAGE);
+    	    throw new RuntimeException(ex.getMessage());
     	}
     }
     

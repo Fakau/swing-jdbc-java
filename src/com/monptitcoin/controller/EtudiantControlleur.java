@@ -19,15 +19,19 @@ public class EtudiantControlleur {
 	 EtudiantDao dao=new EtudiantDao();
 	 
 	public void save(Etudiant e){
-		if(e.getCode().trim().equals("") || e.getNom().trim().equals("") || e.getPrenom().trim().equals("") || e.getMontant() <= 0 || e.getOption().trim().equals("") || e.getDateNaissance().toString().equals("")){
-			javax.swing.JOptionPane.showMessageDialog(null, "Champs invalide", "Erreur remplissage", JOptionPane.ERROR_MESSAGE);
-		}else{
-			if(e.getNumeroRecu().isEmpty()){
-				e.setNumeroRecu("montant cash");
-			}
-		    dao.save(e);
-			javax.swing.JOptionPane.showMessageDialog(null, "Success");
+		try {
+			if (e.getCode().trim().equals("") || e.getNom().trim().equals("") || e.getPrenom().trim().equals("") || e.getMontant() <= 0 || e.getOption().trim().equals("") || e.getDateNaissance().toString().equals("")) {
+				javax.swing.JOptionPane.showMessageDialog(null, "Champs invalide", "Erreur remplissage", JOptionPane.ERROR_MESSAGE);
+			} else {
+				if (e.getNumeroRecu().isEmpty()) {
+					e.setNumeroRecu("montant cash");
+				}
+				dao.save(e);
+				javax.swing.JOptionPane.showMessageDialog(null, "Success");
 
+			}
+		}catch (Exception ex){
+			javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage(), "Erreur", JOptionPane.ERROR_MESSAGE);
 		}
 	}
 	
@@ -61,10 +65,10 @@ public class EtudiantControlleur {
 				
 				
 			}else{
-				System.out.println("file not exist or can't read");
+				javax.swing.JOptionPane.showMessageDialog(null, "file not exist or can't read", "Erreur remplissage", JOptionPane.ERROR_MESSAGE);
 			}
-		}catch(Exception e){
-			System.out.print(e.getMessage());
+		}catch(Exception ex){
+			javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage(), "Erreur", JOptionPane.ERROR_MESSAGE);
 		}
 
 	}
@@ -74,21 +78,24 @@ public class EtudiantControlleur {
 		 dao.delete(id);
 		 javax.swing.JOptionPane.showMessageDialog(null, "Suppression success");
 		}catch(Exception ex){
-			
+			javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage(), "Erreur", JOptionPane.ERROR_MESSAGE);
 		}
 	}
 	
 	public void update(Etudiant e){
-		
-		if(e.getCode().trim().equals("") || e.getNom().trim().equals("") || e.getPrenom().trim().equals("") || e.getMontant() <= 0 || e.getOption().trim().equals("") || e.getDateNaissance().toString().equals("")){
-			javax.swing.JOptionPane.showMessageDialog(null, "Champs invalide", "Erreur remplissage", JOptionPane.ERROR_MESSAGE);
-		}else{
-			if(e.getNumeroRecu().isEmpty()){
-				e.setNumeroRecu("montant cash");
-			}
-			dao.update(e);
-			javax.swing.JOptionPane.showMessageDialog(null, " modification success");
+		try {
+			if (e.getCode().trim().equals("") || e.getNom().trim().equals("") || e.getPrenom().trim().equals("") || e.getMontant() <= 0 || e.getOption().trim().equals("") || e.getDateNaissance().toString().equals("")) {
+				javax.swing.JOptionPane.showMessageDialog(null, "Champs invalide", "Erreur remplissage", JOptionPane.ERROR_MESSAGE);
+			} else {
+				if (e.getNumeroRecu().isEmpty()) {
+					e.setNumeroRecu("montant cash");
+				}
+				dao.update(e);
+				javax.swing.JOptionPane.showMessageDialog(null, " modification success");
 
+			}
+		}catch (Exception ex){
+			javax.swing.JOptionPane.showMessageDialog(null, ex.getMessage(), "Erreur", JOptionPane.ERROR_MESSAGE);
 		}
 		
 	}
