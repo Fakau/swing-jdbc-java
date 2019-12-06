@@ -70,7 +70,6 @@ public class VuePrincipale extends JFrame {
 	
 
 	public VuePrincipale() {
-		this.setVisible(true);
 		this.setSize(Toolkit.getDefaultToolkit().getScreenSize().width, Toolkit
 				.getDefaultToolkit().getScreenSize().height - 40);
 		this.setResizable(false);
@@ -109,7 +108,7 @@ public class VuePrincipale extends JFrame {
 		
 
 		// MainPanelSouth
-		mainPanelSouth.add(new JLabel("Monp'titcoin sa | Copyright 2018"));
+		mainPanelSouth.add(new JLabel("Monp'titcoin sa | Copyright 2017"));
 		mainPanelSouth.setBackground(SystemColor.menu);
 		mainPanelWest.setBorder(new EtchedBorder(EtchedBorder.LOWERED, null, null));
 		mainPanelWest.setForeground(SystemColor.activeCaptionText);
@@ -166,6 +165,7 @@ public class VuePrincipale extends JFrame {
 		this.getContentPane().add(mainPanelSouth, BorderLayout.SOUTH);
 		this.getContentPane().add(mainPanelWest, BorderLayout.WEST);
 		this.getContentPane().add(mainPanelCenter, BorderLayout.CENTER);
+		this.setVisible(true);
 	}
 
 	private void buildMenu() {
